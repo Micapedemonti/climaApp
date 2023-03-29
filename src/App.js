@@ -1,14 +1,15 @@
 
 import './App.css';
-import Api from './Api';
+import Api from './FetchAPi/FetchApi';
 import Input from './Input';
 
 function App() {
   return (
     <div className="App">
+          <h2>WEATHER APP</h2>
     <Api/>
     <Input/>
-      <h2>WEATHER APP</h2>
+
     </div>
   );
 }
