@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Api from "./FetchAPi/FetchApi"
+import Api from '../FetchAPi/FetchApi'
 
 const Input = () =>{
 

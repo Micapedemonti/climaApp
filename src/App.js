@@ -1,12 +1,17 @@
 
 import './App.css';
-import Api from './FetchAPi/FetchApi';
-import Input from './Input';
+import Fecha from './components/Fecha/Fecha';
+import Api from './components/FetchAPi/FetchApi';
+import Input from './components/Input/Input';
 
 function App() {
+
+
+
   return (
     <div className="App">
           <h2>WEATHER APP</h2>
+<Fecha/>
     <Api/>
     <Input/>
 

@@ -1,0 +1,10 @@
+.fecha{
+    display: flex;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family:'Courier New', Courier, monospace
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace
+}
